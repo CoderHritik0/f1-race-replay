@@ -65,7 +65,7 @@ def get_race_telemetry(session):
     for driver_no in drivers:
         code = driver_codes[driver_no]
         count = count + 1
-        print(f"{count}/{len(drivers)}Getting telemetry for driver: {code}")
+        print(f"{count}/{len(drivers)} Getting telemetry for driver: {code}")
 
         laps_driver = session.laps.pick_drivers(driver_no)
         if laps_driver.empty:

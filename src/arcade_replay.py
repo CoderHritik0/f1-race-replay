@@ -312,13 +312,13 @@ class F1ReplayWindow(arcade.Window):
                 )
 
         # Controls Legend - Bottom Left
-        legend_x = 20
+        legend_x = 80
         legend_y = 150 # Height of legend block
         legend_lines = [
             "Controls:",
-            "[SPACE]      Pause/Resume",
-            "[←/→]        Rewind / FastForward",
-            "[ENTER]      Jump to Start",
+            "[SPACE]       Pause/Resume",
+            "[←/→]         Rewind / FastForward",
+            "[ENTER]       Jump to Start",
             "[↑/↓]        Speed +/- (0.5x, 1x, 2x, 4x)",
             "[BACKSPACE]  Reset speed",
         ]
